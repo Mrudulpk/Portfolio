@@ -10,7 +10,7 @@ const Footer = () => {
       <h4>Copyright &copy; 2025 MPK</h4>
       <div className='footerLinks'>
         <a href="https://github.com/Mrudulpk" target='_blank'><FaGithub/></a>
-        <a href="www.linkedin.com/in/mrudul-pk-5b043b1b9" target='_blank'><FaLinkedin/></a>
+        <a href="https://www.linkedin.com/in/mrudul-pk-5b043b1b9/" target='_blank'><FaLinkedin/></a>
         <a href='mailTo:mruthulpk95@gmail.com' target='_blank'><GrMail/></a>
         {/* <a href="https://leetcode.com/sahni1403/" target="_blank"><SiLeetcode/></a> */}
       </div>

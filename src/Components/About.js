@@ -23,7 +23,7 @@ const About = () => {
             endeavors, I have honed my abilities in creating robust and
             user-centric web applications. My experience in front-end
             development with <b>React js</b> and back-end development with <b>Node js</b> and 
-            <b>Express js</b> has allowed me to build seamless, intuitive, and responsive
+            <b >Express js</b> has allowed me to build seamless, intuitive, and responsive
             user interfaces that deliver exceptional user experiences.
           
           </p>
