@@ -29,13 +29,6 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>Introduction</b></h1>
           <p>
-            {/* I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br /> */}
             Experienced Web Developer proficient in <b> ReactJS</b>, <b> MongoDB</b>, <b> NodeJS</b>, and
             <b> ExpressJS</b>. <br></br> <br></br>Skilled in <b> full-stack</b> development, focusing on building scalable,
 high-performance, and user-centric web applications. <br></br> <br></br>Seeking a challenging

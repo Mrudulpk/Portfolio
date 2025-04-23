@@ -1,12 +1,11 @@
 import React from 'react'; 
-import { CgCPlusPlus } from "react-icons/cg";
-import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
+import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap,  FaHtml5, FaCss3Alt} from "react-icons/fa";
 import {DiNodejs, DiJavascript1} from "react-icons/di";
 import {SiExpress, SiMongodb, SiPostman, SiVercel} from "react-icons/si";
 
 const Skills = ({skill}) => {
     const icon = {
-        'C++': <CgCPlusPlus/>,
+        Python: <FaPython/>,
         Postman: <SiPostman/>,
         React: <FaReact/>,
         Javascript: <DiJavascript1/>,
@@ -18,7 +17,9 @@ const Skills = ({skill}) => {
         Npm : <FaNpm/>,
         Figma : <FaFigma/>,
         Bootstrap: <FaBootstrap/>,
-        Vercel : <SiVercel/>
+        Vercel : <SiVercel/>,
+        Html : <FaHtml5 />,
+        Css : <FaCss3Alt />
     }
     
   return (
