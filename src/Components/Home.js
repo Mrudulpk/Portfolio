@@ -5,6 +5,8 @@ import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/Avatar.png';
 import {CiCoffeeCup} from "react-icons/ci";
+import Projects from './Projects.js';
+import About from './About.js';
 
 const Home = () => {
   return (
@@ -41,6 +43,8 @@ growth-driven team. <br></br> <br></br>
           <img className='Avatar' src={Avatar} alt="" />
         </Tilt>
       </div>
+      <Projects />
+      <About />
     </div>
   )
 }
