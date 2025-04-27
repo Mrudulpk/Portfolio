@@ -1,7 +1,5 @@
 import React from 'react';
 import {FaGithub} from "react-icons/fa";
-import {CgFileDocument} from "react-icons/cg";
-
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
@@ -35,8 +33,6 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     HarleyDavidsonDesc:"A Harley-Davidson clone using HTML and CSS is a static website that mimics the design and layout of the official Harley-Davidson site, showcasing its style and branding without interactive features.",
     HarleyDavidsonGithub:"https://github.com/Mrudulpk/HarleyDavidsonClone",
    
-
-  
   }
 
   let show ='';
@@ -58,7 +54,6 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
-            
         </div>
     </div>
   )

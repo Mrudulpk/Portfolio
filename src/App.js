@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { useEffect} from "react";
-import Nav from './Components/Navbar';
+import Nav from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import About from "./Components/About";
@@ -9,20 +8,19 @@ import Project from "./Components/Projects";
 import MoveToTop from "./Components/MoveToTop";
 
 function App() {
-  
   return (
     <>
-      <Nav/>
-      <MoveToTop/>
+      <Nav />
+      <MoveToTop />
 
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/About" element={<About/>}/>
-        <Route path="/Project" element={<Project/>}/>
-        <Route path="/Resume" element={<Resume/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Project" element={<Project />} />
+        <Route path="/Resume" element={<Resume />} />
       </Routes>
-      
-      <Footer/>
+
+      <Footer />
     </>
   );
 }
