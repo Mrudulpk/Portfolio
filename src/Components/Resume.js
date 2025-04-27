@@ -21,7 +21,6 @@ const Resume = () => {
     <div className='ResumePage'>
       <Document file={pdf} className="resumeview">
           <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
-          <Page pageNumber= {2} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
 
       </Document>
 
